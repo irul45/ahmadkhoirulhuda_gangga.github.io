@@ -1,0 +1,13 @@
+let nama="AHMAD KHOIRUL HUDA DAN GANGGA DUWI SAPUTRA"
+let kelas="11 sija"
+let umur="IRUL=17 tahun GANGGA=16TAHUN"
+let sebagai="pelajar"
+
+alert (`perkenalkan nama kami adalah=${nama}`,)
+alert (`kami sekarang kelas=${kelas}`,)
+alert (`sekarang kami usia=${umur}`,)
+alert (`disaat ini kami sekarang sebagai=${sebagai}`,)
+
+
+let hari = new Date().getDay()
+console.log(`hari ini adalah hari apa ${hari}`,)

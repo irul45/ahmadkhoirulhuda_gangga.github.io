@@ -1,0 +1,244 @@
+body{
+padding: 0;
+margin: 0;
+background-color: yellow;
+
+}
+
+header{
+    display: flex;
+    justify-content:end;
+    background-color: coral;
+    padding-right: 40px;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999999;
+    
+    
+    
+    
+    
+}
+
+ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color:blue ;
+    margin-left: 70px;
+    
+    
+   
+}
+li{
+    display:inline-flex;
+    
+    
+    
+}
+
+#ABOUT{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+
+#ABOUT img{
+    width: 700px;
+    margin-top: 150px;
+    
+}
+
+ #ABOUT H1{
+    border-radius: 35px 30px 30px 35px;
+   background-color: #ff1493;
+   margin: 100px;
+  padding-top: 170px;
+  padding-bottom: 30px;
+  font-size: xx-large;
+}
+
+#KETERANGAN H3{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 100px;
+}
+.no-margin{
+    margin-bottom: -50px;
+}
+
+
+#DESTINASI H3{
+    
+    display: flex;
+    padding-left: 700px;
+    padding-top: 200px;
+    font-size:x-large;
+    
+    flex-direction: row;
+    
+}
+
+
+
+#DESTINASI aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+
+}
+
+#DESTINASI img{
+    text-align: center;
+    width: 80px;
+    margin-bottom: 200px;
+    transition: all 0.5s;
+
+}
+#DESTINASI img:hover{
+width: 400px;
+transition: all 0.5s;
+}
+.p{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+#PROJECT h3{
+    text-align: center;
+    font-size: xx-large;
+    padding-top:220px;
+}
+#PROJECT p{
+    text-align: center;
+    font-size: x-large;
+}
+#PROJECT aside img{
+    width:450px;
+    display: flex;
+    flex-direction: column;
+    filter: blur(1.5px);
+    padding-left: 35%;
+    transition: all 0.7s;
+}
+#PROJECT aside img:hover{
+    width:500px;
+    filter: blur(0px);
+    transition:all 0.7s;
+
+    
+    
+}
+
+#FOOTER{
+    text-align: center;
+    padding-top: 210px;
+    color: #ff1493;
+}
+@media screen and (max-width:1024px)
+{
+    #ABOUT img{
+        width: 400px;
+        margin-bottom: 80px;
+        padding-right: 30px;
+    }
+    #ABOUT H1{
+font-size: medium;
+margin-top: 100px;
+margin: 65px;
+
+}
+
+    #KETERANGAN P{
+        text-align: center;
+        font-size: medium;
+}
+
+ #KETERANGAN H3{
+    padding-top: 150px;
+ }
+#DESTINASI H3{
+   
+padding-left: 340px;
+}
+
+#DESTINASI img{
+    width: 110px;
+}
+
+#PROJECT aside img{
+    padding-left: 30%;
+    transition:all 0.7s;
+    
+}
+
+#PROJECT aside img :hover{
+    
+    filter: blur(0px);
+    transition:all 0.7s;
+}
+#FOOTER{
+    text-align: center;
+}
+}
+
+@media screen  and (max-width:904px){
+    header{
+        display: flex;
+        justify-content:end;
+        background-color: coral;
+        padding-right: 10px;
+        top: 0;
+        right: 0;
+        left: 0;
+        position: fixed;
+        z-index: 999999;
+    }    
+
+    ul li a{
+        /* text-decoration: none;
+        list-style-type: none;
+        font-size: small;
+        color:blue ;
+        margin-left: 70px; */
+        font-size: x-small;
+        
+        
+       
+    }
+    li{
+        display:inline-flex;
+        
+        
+        
+    }
+    
+
+    #ABOUT img{
+        width: 80px;
+        margin-bottom:50px;
+        padding-right: 12px;
+}
+    #ABOUT H1{
+        font-size: small;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin: 60px;
+
+    }
+        
+    #FOOTER{
+        font-size: 10px;
+    }
+    
+    
+}
